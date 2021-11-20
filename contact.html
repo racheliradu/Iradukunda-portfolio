@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iradukunda Racheal | Page one</title>
+    <meta name="description" content="This is just for practice.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Images/TYYB.png" type="image/x-icon" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+    
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="index.html">SKILLS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+                
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">Always for your services </h1>
+    </header>
+    <!--for music-->
+    <section class="content-section container">
+        <h1 class="section-header"> CONTACT US </h1>
+        <p><b>Email : iradukundaracheal199@gmail.com</b></p>
+        <p><b>Phone : +250785839954</b></p>
+        <p><b>Facebook : Iradukunda Racheal</b></p>
+        <form style="margin: 50PX;" class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom01">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom02">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustomUsername">Phone Number</label>
+                <div class="input-group">
+                  
+                  <input type="text" class="form-control" id="validationCustomUsername" placeholder="Number" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please Enter your phone Number.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom03">Country</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="Country" required>
+                <div class="invalid-feedback">
+                  Which country are u From ?.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom04">city</label>
+                <input type="text" class="form-control" id="validationCustom04" placeholder="city" required>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom05">nationnality</label>
+                <input type="text" class="form-control" id="validationCustom05" placeholder="nationnality" required>
+                <div class="invalid-feedback">
+                  your natiionnality Please.
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Send me a Copy
+                </label>
+                <div class="invalid-feedback">
+                  Check if u want a copy on yr email 
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message </button>
+          </form>
+        </section>
+          <script>
+          
+          (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+              
+              var forms = document.getElementsByClassName('needs-validation');
+              // Loop over them and prevent submission
+              var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                }, false);
+              });
+            }, false);
+          })();
+          </script>
+        
+    </section>
+
+    
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">IRADUKUNDA RACHEAL</h3>
+            <ul class="nav footer-nav">
+               
+            </ul>
+        </div>     
+    </footer>
+</body>
+</html>
